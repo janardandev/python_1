@@ -1,0 +1,45 @@
+s1=set()
+s1={1,2,3,4,5}
+print(type(s1))
+
+s2=s1.copy()
+print(s2)
+
+s1.pop()
+print(s1)
+print(s2)
+print('***********')
+s3={7,8,9}
+s1.update(s3)
+print(s1)
+s1.remove(9)
+print(s1)
+# s1.clear()
+s1.add(9)
+print(s1)
+s1.add((11,12,13))
+print(s1)
+s4={1,2,3,4,5,6,7}
+print('***********')
+
+print(s4.difference(s2))
+print(s4-s2)
+print('***********')
+print(s2.intersection(s4))
+print(s2&s4)
+print('***********')
+print(s2.union(s4))
+print(s2|s4)
+print('***********')
+print(s2.symmetric_difference(s4))
+print(s2^s4)
+# s1.difference_update()
+# s1.discard()
+
+# s1.intersection_update()
+# s1.isdisjoint()
+# s1.issubset()
+# s1.issuperset()
+# s1.symmetric_difference()
+# s1.symmetric_difference_update()
+
